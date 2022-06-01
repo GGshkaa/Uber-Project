@@ -730,6 +730,12 @@ span {
 
   .menu {
     width: 85%; }
+    .menu .menu_item {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0; }
+    .menu .menu_link {
+      display: block; }
 
   .work {
     padding: 22px 0 36px 0;
