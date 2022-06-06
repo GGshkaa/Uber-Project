@@ -1,7 +1,8 @@
 header
   top: 0px
   width: 100%
-
+.container-1
+  max-width: 1200px
 nav
   position: fixed
   background: #212121
@@ -13,19 +14,21 @@ nav
 .menu
   display: flex
   justify-content: space-between
-  padding: 13px 70px
+  padding: 20px 70px
   margin: 0
   list-style: none
 
   .menu_link
+    margin: 0px 0 0 25px
     color: #FFFFFF
     font-weight: 300
     font-size: 15px
     align-items: center
+    text-decoration: none
 
   .menu_item
     border-right: 2px dotted black
-    padding-right: 40px
+    padding-right: 33px
     &:last-child
         border-right: none
         
@@ -41,10 +44,10 @@ nav
   &_logo
     display: block
     max-width: 100%
-    margin-top: 16px
+    margin: 25px 0 0 120px
 
   .subheader_official
-    margin-top: 6px
+    margin: 1px 0 0 120px
     opacity: 0.5
     color: #FFFFFF
     font-weight: 100
@@ -52,14 +55,16 @@ nav
 
   .subheader_call
     display: block
-    margin-top: 19px
+    margin: 25px 15px 0 0
     color: #FFFFFF
     font-weight: 300
     font-size: 12px
+    text-align: right
 
   .subheader_phone
+    display: block
     text-decoration: none
-    margin-top: 8px
+    margin: 8px 13px 0 0
     color: #FFFFFF
     font-weight: 400
     font-size: 22px
@@ -68,7 +73,7 @@ nav
     line-height: 12px
 
   &_btn
-    margin-top: 19px
+    margin-top: 25px
     width: 172px
     height: 46px
     background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
@@ -83,7 +88,7 @@ nav
 .promo
   min-height: 800px
   background: url(../img/bg/bg-header.jpg) center (center / cover) no-repeat
-  padding: 150px 0 135px 0
+  padding: 200px 0 135px 0
 
   .promo_header
     color: #FFFFFF
@@ -95,7 +100,7 @@ nav
     margin: 0
 
   .promo_subheader
-    padding-top: 22px
+    padding: 10px 0 0 5px
     color: #FFFFFF
     font-weight: 700
     font-size: 36px
@@ -105,7 +110,7 @@ nav
     margin: 0
 
   .promo_descr
-    margin-top: 23px
+    margin-top: 17px
     color: #FFFFFF
     font-weight: 400
     font-size: 18px
@@ -114,7 +119,7 @@ nav
 
   &_btn
     display: block
-    margin: 118px auto 0 auto
+    margin: 115px 0 0 365px
     width: 259px
     height: 63px
     background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
@@ -128,13 +133,11 @@ nav
     text-transform: uppercase
     +btn_hover
 
-.col-md-6
-  padding: 0 13px 0 49px
 
 .lable
   text-transform: uppercase
   text-align: center
-  margin: 50px auto 0
+  margin: 70px 0 0 600px
   background: #000000
   width: 112px
   height: 24px
@@ -144,7 +147,7 @@ nav
   font-weight: 300
 
 .title
-  margin-top: 45px
+  margin: 30px 0 0 25px
   color: #222222
   font-weight: 700
   font-size: 38px
@@ -161,8 +164,8 @@ nav
   min-height: 800px
 
   .work_wrapper
+    margin: 40px 0 0 120px
     float: left
-    margin-top: 35px
     display: flex
     justify-content: center
     align-items: center
@@ -173,10 +176,10 @@ nav
 
   .work_text
     margin-top: 20px
-    padding-left: 150px
+    padding-left: 250px
     font-weight: 300
     font-size: 17px
-    line-height: 25px
+    line-height: 1
     text-align: left
 
 span
@@ -185,18 +188,41 @@ span
   font-weight: 400
 
 .mobile
-  min-height: 864px
-  padding: 48px 0 79px 0
+  max-height: 892px
+  padding: 10px 0 79px 0
   background: url('../img/bg/bg-middle.jpg') center (center / cover) no-repeat
-  .row
-    margin-top: 32px
+  &_lable
+    text-transform: uppercase
+    text-align: center
+    align-items: center
+    margin: 67px 0 0 540px
+    background: black
+    width: 112px
+    height: 24px
+    padding: 5px 12px
+    color: white
+    font-size: 11px
+    font-weight: 300
+  &_title
+    margin: 29px 0 0 18px
+    color: #222222
+    font-weight: 700
+    font-size: 38px
+    text-align: center
+    text-transform: uppercase
+  &_subtitle
+    margin: 6px 0 0 13px
+    font-weight: 400
+    font-size: 17px
+    text-align: center
+  color: #222222
   &_item
     position: relative
     width: 320px
     height: 280px
     margin: 0 auto
-    margin-bottom: 19px
-    padding-top: 92px
+    margin: 28px 0 0 50px
+    padding-top: 85px
     &_1
       background: url('../img/bg/rectangle_1.png') center (center / cover) no-repeat
     &_2
@@ -267,7 +293,7 @@ span
     text-transform: uppercase
     text-align: center
     align-items: center
-    margin: 50px auto 0
+    margin: 60px 0 0 540px
     background: #ffffff
     width: 112px
     height: 24px
@@ -277,14 +303,13 @@ span
     font-weight: 300
 
   &_title
-    padding-top: 37px
+    padding: 20px 0 0 27px
     color: white
     text-align: center
     text-transform: uppercase
     font-weight: 700
     font-size: 38px
   &_subtitle
-    padding-top: 17px 
     color: white 
     text-align: center
     font-weight: 400
@@ -292,7 +317,7 @@ span
   &_subimg
     height: 480px
     background: url('../img/bg/car.png') center no-repeat 
-    margin-top: 25px
+    margin-top: 50px
   &_text
     padding: 0 0 154px 0
     color: #222222
@@ -338,9 +363,10 @@ span
     &:before
       width: 100%
 .require
-  padding: 68px 0 84px 0
+  max-height: 850px
+  padding: 0px 0 84px 0
   &_block
-    margin: 33px 0
+    margin: 12px 0 0 90px
     &_nmb
       margin-bottom: 0px
   &_title
@@ -350,7 +376,7 @@ span
   &_list
     list-style-type: none
     padding-left: 50px
-    margin-top: 22px
+    margin-top: 10px
     li
       position: relative
       margin-bottom: 10px
@@ -367,7 +393,9 @@ span
         height: 20px
         background: url('../icons/yes.jpg') center (center / cover) no-repeat
   &_descr
+    font-size: 19px
     color: #1CA8C3 
+    margin-bottom: 30px
   .warning
     .require_title
       color: $second_color
@@ -375,6 +403,8 @@ span
       li
         &::before
           background: url('../icons/no.jpg') center (center / cover) no-repeat
+  &_fix
+    margin: 13px 0 0 15px
 .world
   padding: 50px 0 40px 0
   min-height: 717px
@@ -385,34 +415,33 @@ span
     align-items: center
     margin: 0 auto
     background: #ffffff
-    width: 112px
+    width: 75px
     height: 24px
     padding: 5px 12px
     color: #070716
     font-size: 11px
     font-weight: 300
   &_title
-    margin-top: 30px
+    margin-top: 20px
     color: white
     text-align: center
     text-transform: uppercase
     font-weight: 700
     font-size: 40px
   &_subtitle
-    margin-top: 5px
     color: white
     text-align: center
     font-size: 17px
     font-weight: 400
   &_link
     text-align: center
-    margin-top: 470px
-    color: $main_color
+    margin-top: 473px
     text-transform: uppercase
     font-size: 15px
     font-weight: 400
     a
       text-decoration: none
+      color: $main_color 
       &:hover
         color: white
 .footer
