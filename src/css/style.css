@@ -598,7 +598,8 @@ span {
     font-size: 50px; }
 
   .mobile_item {
-    width: 300px; }
+    width: 290px;
+    margin: 28px; }
     .mobile_item_subtitle {
       font-size: 20px; } }
 @media (max-width: 991px) {
@@ -607,15 +608,12 @@ span {
   .menu .menu_link {
     font-size: 10px; }
 
-  .subheader_logo img {
-    width: 100%; }
   .subheader .subheader_official {
     font-size: 11px; }
   .subheader .subheader_phone {
     font-size: 18px; }
   .subheader_btn {
     margin-top: 21px;
-    width: 100%;
     height: 40px; }
 
   .promo .promo_header {
